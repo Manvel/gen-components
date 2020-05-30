@@ -1,0 +1,46 @@
+wc-tab-panel
+{
+  --color-primary: #679c16;
+  --color-secondary: #989898;
+  display: flex;
+}
+
+wc-tabs
+{
+  color: #878787;
+  width: 200px;
+  padding: 0 15px;
+}
+
+wc-tab
+{
+  display: block;
+  cursor: pointer;
+  padding: 3px 5px;
+}
+
+wc-tab[aria-selected]
+{
+  color: #000000;
+  background-color: #E6E6E6;
+}
+
+wc-panels
+{
+  padding: 0 15px;
+  display: block;
+  width: 100%;
+}
+
+wc-panels h2
+{
+  margin: 0px;
+}
+
+wc-panels h2::after
+{
+  content: "";
+  display: block;
+  border-bottom: 1px solid #a8a8a8;
+  margin-top: 10px;
+}

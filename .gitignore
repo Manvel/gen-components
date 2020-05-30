@@ -1,0 +1,4 @@
+node_modules
+package-lock.json
+documentation/public/js/main.js
+documentation/public/css/main.css

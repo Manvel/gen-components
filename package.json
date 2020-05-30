@@ -1,0 +1,25 @@
+{
+  "name": "gen-components",
+  "version": "1.0.0",
+  "description": "Generic web components",
+  "main": "index.js",
+  "scripts": {
+    "start": "cmints documentation --start --no-cache --dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manvel/gen-components.git"
+  },
+  "keywords": [
+    "web-components"
+  ],
+  "author": "Manvel Saroyan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Manvel/gen-components/issues"
+  },
+  "homepage": "https://github.com/Manvel/gen-components#readme",
+  "dependencies": {
+    "cmints": "^1.2.1"
+  }
+}

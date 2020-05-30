@@ -1,0 +1,42 @@
+wc-tab-panel
+{
+  --color-primary: #679c16;
+  --color-secondary: #989898;
+  display: block;
+}
+
+wc-tabs
+{
+  display: inline-block;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  border-bottom: 1px solid var(--color-secondary);
+}
+
+wc-tab
+{
+  list-style: none;
+  float: left;
+  position: relative;
+  top: 2px;
+  margin: 0 .2em 1px 0;
+  border-bottom: 0 !important;
+  white-space: nowrap;
+  color: var(--color-secondary);
+  padding: 10px 16px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+wc-tab[aria-selected] 
+{
+  color: #459e00;
+  background: transparent url(../../img/wc-tab-panel/tabs-arrow.svg) no-repeat bottom center;
+}
+
+wc-panels
+{
+  display: block;
+}

@@ -1,0 +1,26 @@
+---
+title: wc-tab-panel
+---
+
+<h2>CBA Style</h2>
+<div class="cba">
+  <%- include("markup/_cba")  %>
+</div>
+
+<h3>Documentation</h3>
+
+<%- include("../_code", {codes: [{name: "HTML", code: include("markup/_cba")},
+                                 {name: "CSS", code: wcTabPanel.css.cba},
+                                 {name: "JS", code: wcTabPanel.js.cba}],
+                                 id: "cba-doc"})  %>
+<h2>PM Style</h2>
+<div class="pm">
+  <%- include("markup/_pm")  %>
+</div>
+
+
+<h3>Documentation</h3>
+<%- include("../_code", {codes: [{name: "HTML", code: include("markup/_pm")},
+                                 {name: "CSS", code: wcTabPanel.css.pm},
+                                 {name: "JS", code: wcTabPanel.js.pm}],
+                                 id: "pm-doc"})  %>

@@ -1,0 +1,23 @@
+<div class="pm">
+  <wc-tab-panel>
+
+    <wc-tabs>
+      <% for (const {name} of codes) { %>
+        <wc-tab id="<%= id %><%= name.replace(" ", "") %>-tab"><%= name %></wc-tab>
+      <% } %>
+    </wc-tabs>
+
+    <wc-panels>
+      <% for (const {name, code} of codes) { %>
+        <wc-panel aria-labelledby="<%= id %><%= name.replace(" ", "") %>-tab">
+          <pre>
+           <code>
+<%= code %>
+           </code>
+          </pre>
+        </wc-panel>
+      <% } %>
+    </wc-panels>
+
+  </wc-tab-panel>
+</div>
